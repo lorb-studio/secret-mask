@@ -1,0 +1,44 @@
+{
+  "name": "@lorb/secret-mask",
+  "version": "0.2.2",
+  "description": "Your terminal leaks secrets. This replaces them with playful phrases, not ***",
+  "type": "module",
+  "bin": {
+    "secret-mask": "dist/cli.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "secrets",
+    "masking",
+    "terminal",
+    "cli",
+    "security",
+    "redact"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "homepage": "https://lorb.studio",
+  "author": "Lorb.studio <dev@lorb.studio> (https://lorb.studio)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lorb-studio/make",
+    "directory": "secret-mask"
+  }
+}

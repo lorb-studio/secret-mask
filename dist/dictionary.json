@@ -1,0 +1,37 @@
+{
+    "adjectives": [
+        "Dancing", "Sleepy", "Grumpy", "Brave", "Fancy",
+        "Dizzy", "Fluffy", "Sneaky", "Jolly", "Tiny",
+        "Wobbly", "Sparkly", "Lazy", "Bouncy", "Cheeky",
+        "Gentle", "Witty", "Daring", "Cozy", "Swift",
+        "Hasty", "Clumsy", "Chatty", "Frosty", "Peppy",
+        "Rusty", "Zesty", "Moody", "Salty", "Dusty",
+        "Noisy", "Quirky", "Stormy", "Gloomy", "Breezy",
+        "Crispy", "Foggy", "Shiny", "Mossy", "Silky"
+    ],
+    "animals": [
+        "Cat", "Owl", "Fox", "Snail", "Panda",
+        "Frog", "Duck", "Bear", "Moth", "Crow",
+        "Goat", "Newt", "Lynx", "Yak", "Eel",
+        "Wren", "Seal", "Wasp", "Crab", "Dove",
+        "Hawk", "Mole", "Toad", "Swan", "Hare",
+        "Slug", "Wolf", "Deer", "Lark", "Finch",
+        "Vole", "Pike", "Ibis", "Kiwi", "Puma",
+        "Shrew", "Gecko", "Robin", "Otter", "Stoat"
+    ],
+    "prepositions": [
+        "on", "in", "under", "behind", "beside",
+        "above", "near", "upon", "inside", "beyond",
+        "across", "among", "below", "past", "toward"
+    ],
+    "objects": [
+        "Banana", "Teacup", "Cloud", "Rainbow", "Mushroom",
+        "Lantern", "Feather", "Pillow", "Marble", "Acorn",
+        "Cactus", "Pebble", "Candle", "Walnut", "Mitten",
+        "Crayon", "Pickle", "Turnip", "Seesaw", "Bonnet",
+        "Fossil", "Cobweb", "Thimble", "Brioche", "Hammock",
+        "Parsnip", "Trinket", "Raindrop", "Biscuit", "Sundial",
+        "Pinwheel", "Starfish", "Chimney", "Blanket", "Compass",
+        "Pretzel", "Lanyard", "Doorknob", "Sandbox", "Inkwell"
+    ]
+}
