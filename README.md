@@ -1,15 +1,13 @@
 <p align="center">
-  <a href="https://lorb.studio">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="../.github/logo-light.svg">
-      <img alt="Lorb.studio" src="../.github/logo-dark.svg" height="40">
-    </picture>
-  </a>
+  <img src=".github/icon.png" width="80" height="80" alt="secret-mask" />
 </p>
 
-# @lorb/secret-mask
+<h1 align="center">secret-mask</h1>
+<p align="center">Your terminal leaks secrets. This makes them disappear — playfully.</p>
 
-Your terminal leaks secrets. This makes them disappear — playfully.
+<p align="center">
+  <a href="https://www.npmjs.com/package/@lorb/secret-mask"><code>npm install @lorb/secret-mask</code></a>
+</p>
 
 ```
 $ secret-mask -- npm run dev
