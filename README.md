@@ -9,6 +9,10 @@
   <a href="https://www.npmjs.com/package/@lorb/secret-mask"><code>npm install @lorb/secret-mask</code></a>
 </p>
 
+<p align="center">
+  <img src="./demo.gif" alt="secret-mask demo" width="600">
+</p>
+
 ```
 $ secret-mask -- npm run dev
 Server running on http://localhost:3000
