@@ -1,6 +1,6 @@
 {
   "name": "@lorb/secret-mask",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Your terminal leaks secrets. This replaces them with playful phrases, not ***",
   "type": "module",
   "bin": {
@@ -34,11 +34,10 @@
   "engines": {
     "node": ">=22"
   },
-  "homepage": "https://lorb.studio",
+  "homepage": "https://github.com/lorb-studio/secret-mask",
   "author": "Lorb.studio <dev@lorb.studio> (https://lorb.studio)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lorb-studio/make",
-    "directory": "secret-mask"
+    "url": "https://github.com/lorb-studio/secret-mask"
   }
 }

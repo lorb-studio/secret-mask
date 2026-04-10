@@ -29,16 +29,16 @@ const PATTERNS: SecretPattern[] = [
   { name: 'url-creds', regex: /(?:https?|ftp|postgresql|postgres|mysql|mongodb|redis|amqp):\/\/[^\s:]+:[^\s@]+@[^\s]+/ },
 
   // AWS secret key (40 char base64-ish after common assignment patterns)
-  { name: 'aws-secret', regex: /(?:aws_secret_access_key|AWS_SECRET_ACCESS_KEY)\s*[=:]\s*[A-Za-z0-9\/+=]{40}/ },
+  { name: 'aws-secret', regex: /(?<=(?:aws_secret_access_key|AWS_SECRET_ACCESS_KEY)\s*[=:]\s*)[A-Za-z0-9\/+=]{40}/ },
 
-  // Generic env-style secrets (KEY=value where key suggests a secret)
-  { name: 'env-secret', regex: /(?:SECRET|TOKEN|PASSWORD|APIKEY|API_KEY|PRIVATE_KEY|ACCESS_KEY|AUTH)[\w]*\s*=\s*[^\s]{8,}/ },
+  // Generic env-style secrets (KEY=value where key suggests a secret — mask value only)
+  { name: 'env-secret', regex: /(?<=(?:SECRET|TOKEN|PASSWORD|APIKEY|API_KEY|PRIVATE_KEY|ACCESS_KEY|AUTH)[\w]*\s*=\s*)[^\s]{8,}/ },
 
   // Private keys
   { name: 'private-key', regex: /-----BEGIN (?:RSA |EC |DSA |OPENSSH )?PRIVATE KEY-----/ },
 
   // Base64-encoded long strings that look like credentials (preceded by assignment)
-  { name: 'base64-cred', regex: /(?:key|secret|token|password|credential)\s*[=:]\s*["']?[A-Za-z0-9+\/]{40,}={0,2}["']?/i },
+  { name: 'base64-cred', regex: /(?<=(?:key|secret|token|password|credential)\s*[=:]\s*["']?)[A-Za-z0-9+\/]{40,}={0,2}["']?/i },
 ];
 
 export class SecretPatterns {
